@@ -6,6 +6,7 @@ import java.time.LocalDate;
 
 public class Vehicle {
 
+    
     private int vehicleID;
     private static int nextVehicleID = 1000;
     private int miles;
