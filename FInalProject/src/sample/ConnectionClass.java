@@ -38,6 +38,7 @@ public class ConnectionClass {
             if (connection != null && !connection.isClosed()){
                 connection.close();
             }
+            
         }catch (Exception e){throw e;}
     }
 }
